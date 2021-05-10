@@ -1,0 +1,16 @@
+.slide-pane__overlay.overlay-after-open {
+  background-color: rgba(240, 248, 255, 0);
+}
+/* 
+.slide-pane {
+  margin-top: 175px;
+  margin-left: 1160px;
+  height: 540px;
+  max-width: 342px;
+  border: 1px solid white;
+  border-radius: 10px;
+} */
+
+.fas.fa-minus {
+  background-color: aqua;
+}

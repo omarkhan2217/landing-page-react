@@ -1,0 +1,105 @@
+.gallery1 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.galleryImg1 {
+  display: flex;
+  max-width: 453px;
+  max-height: 240.325px;
+  margin-top: 159.675px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg2 {
+  display: flex;
+  min-width: 409.575px;
+  min-height: 399.987px;
+  margin-top: 0.013px;
+  margin-left: 21.712;
+  margin-right: 21.712;
+  align-items: baseline;
+  justify-content: baseline;
+  height: 350px;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg3 {
+  display: flex;
+  max-width: 409.575px;
+  max-height: 399.987px;
+  margin-top: 0.013px;
+  margin-left: 21.712;
+  margin-right: 21.712;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg4 {
+  display: flex;
+  max-width: 453px;
+  max-height: 240.325px;
+  margin-top: 159.675px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg5 {
+  display: flex;
+  max-width: 453px;
+  max-height: 240.325px;
+  margin-top: 159.675px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gallerySliderBar {
+  transform: darken 50%;
+}
+
+.btnGallery {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  margin-left: 1rem;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0.1rem;
+  padding: 0.1rem;
+}
+
+.btnGallery:hover {
+  text-decoration: underline;
+}
+
+.paragraph {
+  width: 100%;
+  padding: 0.25rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0.1rem;
+  padding: 0.1rem;
+  color: #999;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+  margin-bottom: 48px;
+  margin-left: 80px;
+  padding-bottom: 150px;
+}

@@ -1,0 +1,21 @@
+.App {
+  background-image: url("https://www.aesop.com/u1nb1km7t5q7/3JruvdkK023WgnONfInKkk/1197b51f6b729714eb05b981b47e4010/Aesop_Gifting_2021_Mothers_Day_Web_Homepage_Primary_Full_Bleed_1_Desktop_2880x1044px.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 634.4px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .App {
+    background-image: url("https://www.aesop.com/u1nb1km7t5q7/60ncJAJh39r3UetgtJd9Sj/c297822e2b318d5c13454423dc92a348/Aesop_Gifting_2021_Mothers_Day_Web_Homepage_Primary_Full_Bleed_1_Tablet_1536x1600px.jpg");
+    height: 719.6px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .App {
+    background-image: url("https://www.aesop.com/u1nb1km7t5q7/AoOo6nsU6NR4fsDSCxAgh/3c0bc1f42613cd0a404aa9f159334501/Aesop_Gifting_2021_Mothers_Day_Web_Homepage_Primary_Full_Bleed_1_Mobile_640x640px.jpg");
+    height: 650px;
+  }
+}

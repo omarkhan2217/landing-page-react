@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "suisse_intlregular", sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  /* overflow: hidden; */
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 115px;
+  margin-left: 30px;
+  height: 8%;
+  width: 8%;
+}
+
+.motherDayContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 426px;
+  margin-left: 250px;
+  /* margin-right: 650px; */
+  margin-top: -50px;
+}
+
+.btnDark {
+  padding: 20px;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  animation-name: button-out;
+  animation-duration: 0.35s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes button-out {
+  from {
+    border-color: #333;
+    background-color: #333;
+    color: #fffef2;
+  }
+  to {
+    color: #333;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+  }
+}
+
+.btnDark:hover {
+  animation-name: button-hover;
+  animation-duration: 0.35s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes button-hover {
+  to {
+    border-color: #333;
+    background-color: #333;
+    color: #fffef2;
+  }
+}
+
+.motherDayParagraph {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  /* margin-right: 240px; */
+  color: #333;
+  line-height: 1.7;
+  max-width: 426px;
+}
+
+.section1 h4 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 19px;
+}
+
+.section1 h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #333;
+}
+
+.icon {
+  margin-left: 2rem;
+  font-size: 13px;
+}
+
+/* @media only screen and (max-width: 768px) {
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 600px;
+    background-color: #333;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .motherDayContainer {
+    width: 500px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+  }
+} */
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    min-width: 100px;
+  }
+
+  .motherDayContainer {
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .logo {
+    padding-top: 0px;
+    margin-top: -51.25px;
+  }
+
+  .motherDayContainer {
+    margin-top: 535px;
+    background-color: #fffef2;
+    margin-left: 0px;
+    padding: 20px 40px;
+    min-width: 385px;
+    height: 356px;
+  }
+  .motherDayParagraph {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    /* margin-right: 240px; */
+    color: #333;
+    line-height: 1.7;
+    max-width: 306px;
+  }
+}

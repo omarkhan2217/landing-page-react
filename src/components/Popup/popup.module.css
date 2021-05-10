@@ -1,0 +1,51 @@
+.popupContainer {
+  background-color: #252525;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popupParagraph {
+  margin: 15px;
+  padding: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  animation-name: popup;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes popup {
+  from {
+    border-bottom: 1px solid #fffef2;
+  }
+  to {
+    border-bottom: 1px solid #252525;
+  }
+}
+
+.popupParagraph:hover {
+  animation-name: popup-hover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes popup-hover {
+  from {
+    border-bottom: 1px solid #333;
+  }
+  to {
+    border-bottom: 1px solid #fffef2;
+  }
+}
+
+.icon {
+  padding-left: 1rem;
+  font-size: 10px;
+  display: inline-block;
+  text-align: center;
+}

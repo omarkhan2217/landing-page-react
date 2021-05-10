@@ -1,0 +1,48 @@
+.quoteContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 150px;
+  padding-top: 200px;
+  margin-right: 280px;
+  margin-left: 280px;
+}
+
+.quote {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "zapf humanist", serif;
+}
+
+.quoter {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+  .quoteContainer {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .quoteContainer {
+    margin: 0;
+    margin-top: -25rem;
+  }
+
+  .quote {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quoter {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

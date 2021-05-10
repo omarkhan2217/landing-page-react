@@ -1,0 +1,151 @@
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr 1fr 1fr 1fr);
+  background-color: #252525;
+  color: white;
+  box-sizing: border-box;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.inputEmail {
+  background-color: transparent;
+  width: 30rem;
+  padding-left: 6px;
+  margin: 6px;
+  border-radius: 3px;
+  border: 1px solid #fffef2;
+  font-size: 20px;
+  line-height: 1.85;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
+.header {
+  font-size: 16px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-bottom: 16px;
+  margin-right: 25px;
+  border-bottom: 1px solid white;
+  padding-bottom: 24px;
+}
+
+.paragraph {
+  font-size: 14px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+.checkbox {
+  margin-left: -23px;
+  margin-right: 10px;
+  background-color: #252525;
+  color: white;
+}
+
+.checkbox:hover {
+  cursor: pointer;
+}
+
+.description {
+  font-size: 14px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 2;
+}
+
+.descriptione {
+  font-size: 14px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  line-height: 2;
+  margin-right: 35px;
+}
+
+.link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  color: #fffef2;
+  font-size: 14px;
+  padding: 0.2rem;
+  margin: 8px;
+}
+
+.links {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  color: #fffef2;
+  font-size: 14px;
+  padding: 0.2rem;
+  margin: 0.5rem;
+  margin-left: 70px;
+  margin-top: -20px;
+}
+
+.copyright {
+  background-color: #252525;
+  color: white;
+  border-top: 2px solid white;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footerContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .header {
+    margin-right: 5rem;
+  }
+
+  .inputEmail {
+    width: 666px;
+  }
+
+  .description {
+    width: 600px;
+    margin-left: 2rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .footerContainer {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    grid-template-rows: repeat(3, 1fr);
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  .header {
+    margin-right: 0.1rem;
+  }
+
+  .inputEmail {
+    width: 333px;
+  }
+
+  .description {
+    width: 300px;
+    margin-right: 1px;
+  }
+
+  .copyright {
+    overflow: visible;
+  }
+}

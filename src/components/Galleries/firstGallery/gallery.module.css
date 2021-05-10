@@ -1,0 +1,224 @@
+.gallery1 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.galleryImg1 {
+  display: flex;
+  max-width: 453px;
+  max-height: 240.33px;
+  margin-top: 159.675px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg2 {
+  display: flex;
+  min-width: 409.58px;
+  min-height: 399.99px;
+  margin-right: 21.712px;
+  margin-left: 21.712px;
+  margin-top: 0.013px;
+  align-items: baseline;
+  justify-content: baseline;
+  height: 350px;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg3 {
+  display: flex;
+  max-width: 453px;
+  max-height: 275.11px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 124.887px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg4 {
+  display: flex;
+  max-width: 347.19px;
+  max-height: 399.99px;
+  margin-left: 52.9px;
+  margin-right: 52.9px;
+  margin-top: 0.013px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg5 {
+  display: flex;
+  max-width: 453px;
+  max-height: 275.11px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 124.887px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg6 {
+  display: flex;
+  max-width: 337.2px;
+  max-height: 400px;
+  margin-left: 57.9px;
+  margin-right: 57.9px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+.galleryImg7 {
+  display: flex;
+  max-width: 453px;
+  max-height: 275.11px;
+  margin-top: 124.887px;
+  align-items: baseline;
+  justify-content: baseline;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btnGallery {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  margin-left: 1rem;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0.1rem;
+  padding: 0.1rem;
+}
+
+.btnGallery:hover {
+  text-decoration: underline;
+}
+
+.paragraph {
+  width: 100%;
+  padding: 0.25rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0.1rem;
+  padding: 0.1rem;
+  color: #999;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-direction: row;
+  margin-right: 80px;
+  margin-bottom: 48px;
+  margin-left: 80px;
+  padding-bottom: 150px;
+  min-width: 100%;
+}
+
+.galleryHover:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 640px) {
+  .galleryContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+    margin-bottom: 48px;
+    margin-left: 80px;
+    padding-bottom: 150px;
+    min-width: 100%;
+  }
+
+  .galleryImg1 {
+    display: flex;
+    max-width: 253px;
+    max-height: 240.33px;
+    margin-top: 159.675px;
+    align-items: baseline;
+    justify-content: baseline;
+    text-align: center;
+    cursor: pointer;
+  }
+  .galleryImg2 {
+    display: flex;
+    min-width: 300px;
+    min-height: 150px;
+    margin-right: 50.712px;
+    margin-left: 50.712px;
+    margin-top: 5px;
+    align-items: baseline;
+    justify-content: baseline;
+    height: 290px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .galleryImg3 {
+    display: flex;
+    max-width: 253px;
+    max-height: 275.11px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 124.887px;
+    align-items: baseline;
+    justify-content: baseline;
+    text-align: center;
+    cursor: pointer;
+  }
+  .galleryImg4 {
+    display: flex;
+    max-width: 253px;
+    max-height: 399.99px;
+    margin-left: 52.9px;
+    margin-right: 52.9px;
+    margin-top: 0.013px;
+    align-items: baseline;
+    justify-content: baseline;
+    text-align: center;
+    cursor: pointer;
+  }
+  .galleryImg5 {
+    display: flex;
+    max-width: 253px;
+    max-height: 275.11px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 124.887px;
+    align-items: baseline;
+    justify-content: baseline;
+    text-align: center;
+    cursor: pointer;
+  }
+  .galleryImg6 {
+    display: flex;
+    max-width: 253px;
+    max-height: 400px;
+    margin-left: 57.9px;
+    margin-right: 57.9px;
+    align-items: baseline;
+    justify-content: baseline;
+    text-align: center;
+    cursor: pointer;
+  }
+  .galleryImg7 {
+    display: flex;
+    max-width: 253px;
+    max-height: 275.11px;
+    margin-top: 124.887px;
+    align-items: baseline;
+    justify-content: baseline;
+    text-align: center;
+    cursor: pointer;
+  }
+}
